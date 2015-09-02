@@ -1,4 +1,4 @@
-package mvcdemo;
+package MVCDemo;
 
 public class Student {
    private String rollNo;

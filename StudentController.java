@@ -1,4 +1,4 @@
-package mvcdemo;
+package MVCDemo;
 
 public class StudentController {
    private Student model;
@@ -9,6 +9,12 @@ public class StudentController {
       this.view = view;
    }
 
+   public void setNewStudent(Student model)
+   {
+     setStudentName(model.getName());
+     setStudentRollNo(model.getRollNo());
+   }
+   
    public void setStudentName(String name){
       model.setName(name);    
    }

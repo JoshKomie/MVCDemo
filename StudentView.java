@@ -1,4 +1,4 @@
-package mvcdemo;
+package MVCDemo;
 
 public class StudentView {
    public void printStudentDetails(String studentName, String studentRollNo){

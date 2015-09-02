@@ -1,4 +1,4 @@
-package mvcdemo;
+package MVCDemo;
 
 public class MVCDemo {
 
@@ -15,6 +15,17 @@ public class MVCDemo {
 
       controller.setStudentName("John");
 
+      controller.updateView();
+      
+      controller.setStudentName("Mike");
+      
+      controller.updateView();
+      
+      Student newStudent = new Student();
+      newStudent.setName("Josh");
+      newStudent.setRollNo("20");
+      
+      controller.setNewStudent(newStudent);
       controller.updateView();
    }
 
