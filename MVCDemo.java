@@ -4,7 +4,7 @@ public class MVCDemo {
 
   public static void main(String[] args) {
 
-      
+      //test
       Student model  = retriveStudentFromDatabase();
 
       StudentView view = new StudentView();
